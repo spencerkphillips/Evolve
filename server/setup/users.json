@@ -1,0 +1,35 @@
+[
+	{
+		"firstName": "Spencer",
+		"lastName": "Phillips",
+		"username": "superadmin",
+		"address": "Cuyahoga Falls, Ohio",
+		"phoneNumber": "13303911069",
+		"email": "superadmin@reviveweb.co",
+		"roleId": "",
+		"roleAlias": "Super Admin",
+		"password": "Q!34F4SZ9a"
+	},
+	{
+		"firstName": "Admin",
+		"lastName": "Admin",
+		"username": "admin",
+		"address": "Wakanda",
+		"phoneNumber": "01000000002",
+		"email": "admin@test.com",
+		"roleId": "",
+		"roleAlias": "Admin",
+		"password": "mern-boilerplate"
+	},
+	{
+		"firstName": "User",
+		"lastName": "User",
+		"username": "user",
+		"address": "Wakanda",
+		"phoneNumber": "01000000003",
+		"email": "user@test.com",
+		"roleId": "",
+		"roleAlias": "User",
+		"password": "mern-boilerplate"
+	}
+]
