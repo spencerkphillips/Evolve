@@ -1,7 +1,7 @@
 <br/>
 <p align="center">
   <a href="https://github.com/SpencerKPhillips/Evolve">
-    <img src="https://github.com/SpencerKPhillips/Evolve/assets/evolve_Icon.webp" alt="Logo" width="80" height="80">
+    <img src="https://github.com/spencerkphillips/Evolve/blob/main/assets/evolve_Icon.webp" alt="Logo" width="80" height="80">
   </a>
 
   <h3 align="center">Evolve CMS</h3>
