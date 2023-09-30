@@ -65,12 +65,7 @@ const migrate = async (logger) => {
 	}
 
 	await updateAll(
-		{
-			$or: [
-				{ createdBy: { $exists: false } },
-				{ createdBy: ObjectId('303030303030303030303030') },
-			],
-		},
+		{},
 		{
 			createdBy: superadminUser._id,
 			updatedBy: superadminUser._id,

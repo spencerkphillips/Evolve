@@ -19,12 +19,17 @@ const { seed: seedResources } = require('./resources');
 // seed permissions
 const { seed: seedPermissions } = require('./permissions');
 
-const isMongoDbUrl = JSON.parse(
-	process.env.IS_MONGODB_CLOUD_URL ? process.env.IS_MONGODB_CLOUD_URL : 'false'
+const uri = process.env.MONGODB_CLOUD_URI;
+
+/* To Be Fixed - Does not currently work
+const isMongoDbUri = JSON.parse(
+	process.env.IS_MONGODB_CLOUD_URI ? process.env.IS_MONGODB_CLOUD_URI : 'true'
 );
-const uri = isMongoDbUrl
-	? process.env.MONGODB_CLOUD_URL
+
+const uri = isMongoDbUri
+	? process.env.MONGODB_CLOUD_URI
 	: `mongodb://${process.env.DB_HOST}:${process.env.DB_PORT}/${process.env.DB_NAME}`;
+*/
 const options = { useNewUrlParser: true, useUnifiedTopology: true };
 
 const seed = async () => {
@@ -44,6 +49,7 @@ const seed = async () => {
 		process.exit(0);
 	} catch (error) {
 		logger.error(JSON.stringify(error));
+		console.log(JSON.stringify(error));
 		process.exit(0);
 	}
 };
